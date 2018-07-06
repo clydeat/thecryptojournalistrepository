@@ -14,6 +14,11 @@ puts "Combien y'a t'il de journalistes dans cet array / ce tableau ?"
 puts journalists.length
 puts ""
 
+
+
+
+
+
 puts "Combien d'handle contiennent un numéro ?"
 
 
@@ -33,6 +38,13 @@ end
 puts number_of_journalist_with_number_in_username
 
 
+
+
+
+
+
+
+
 puts ""
 puts "Combien d'handle contiennent les 4 lettres du prénom Aude ?"
 
@@ -44,6 +56,13 @@ journalists.each do |journalist|
 	end
 end
 puts number_of_journalist_with_lesquatrelettre
+
+
+
+
+
+
+
 
 
 
@@ -66,6 +85,14 @@ puts number_of_journalist_capitalized
 
 
 
+
+
+
+
+
+
+
+
 puts ""
 puts "Combien contiennent une majuscule ?"
 
@@ -77,6 +104,13 @@ journalists.each do |journalist|
 	end
 end
 puts number_of_journalist_with_capsinside
+
+
+
+
+
+
+
 
 
 
@@ -92,6 +126,16 @@ arrayofjournalistswithanunderscore = journalists.each do |journalist|
 	end		
 end
 puts number_of_journalist_with_lesunderscore
+
+
+
+
+
+
+
+
+
+
 
 puts ""
 puts "Trie la liste de handle par ordre alphabétique"
